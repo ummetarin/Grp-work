@@ -1,6 +1,7 @@
 
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Swal from 'sweetalert2';
 
 // npm install @emailjs/browser --save
 
@@ -14,12 +15,25 @@ const Contact = () => {
     console.log("Sending email...");
 
     emailjs.sendForm('service_klcfif5', 'template_g8w30nl', form.current, '53e7lEtq-rLlUMSyB')
-      .then((result) => {
-          console.log("Email sent successfully:", result.text);
-      }, (error) => {
-          console.error("Error sending email:", error.text);
-      });
-  };
+        .then((result) => {
+            console.log("Email sent successfully:", result.text);
+            // Show success SweetAlert
+            Swal.fire({
+                icon: 'success',
+                title: 'Email sent successfully!',
+                text: result.text
+            });
+        })
+        .catch((error) => {
+            console.error("Error sending email:", error.text);
+            // Show error SweetAlert
+            Swal.fire({
+                icon: 'error',
+                title: 'Error sending email',
+                text: error.text
+            });
+        });
+};
   return (
     <div>
       {/* map */}
