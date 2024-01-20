@@ -9,7 +9,7 @@ const Aboutpart1 = () => {
                 <button className="btn bg-blue-800 text-white">Explore Us</button>
             </div>
             <div>
-                <img className="w-[450px] h-[300px] rounded-lg " src="https://i.ibb.co/DWVtB2H/Doctors.jpg" alt="" />
+                <img className="md:w-[450px] md:h-[300px] rounded-lg " src="https://i.ibb.co/DWVtB2H/Doctors.jpg" alt="" />
             </div>
           </div>
     );

@@ -2,12 +2,12 @@
 
 const Aboutpart2 = () => {
     return (
-        <div className="flex md:flex-row pb-24 flex-col gap-10 justify-center items-center pt-20">
+        <div className="flex md:flex-row pb-24 flex-col gap-10 justify-center items-center mx-auto pt-20">
         
         <div>
             <img className="w-[450px] h-[300px] rounded-lg " src="https://i.ibb.co/cQGpqFc/phc-infographic-1.jpg" alt="" />
         </div>
-        <div className="w-[470px] ">
+        <div className="md:w-[470px] md:ml-0  ">
             <h1 className="md:text-3xl py-2 text-blue-700 font-bold  ">Why We Uniqe From Others??</h1>
         <ul className="list-decimal ml-5">
             

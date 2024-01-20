@@ -8,9 +8,9 @@ const AboutServices = () => {
             <div className="flex md:flex-row flex-col justify-center items-center mx-auto gap-4 py-6">
             <div>
 
-<div className="w-[300px]">
+<div className="w-[300px] ">
   <img className="w-[300px] h-[200px]" src="https://i.ibb.co/VYzp9Hx/ebd13cefb0cbca138fd2d2834a001572.jpg" alt="" />
-  <h1 className="text-xl font-bold text-blue-700 pt-3 text-center">Dental Implant</h1>
+  <h1 className="md:text-xl font-bold text-blue-700 pt-3 text-center">Dental Implant</h1>
   <p className="text-sm font-bold text-black pt-3 text-center">Dental implants are a popular and effective solution for replacing missing teeth. This surgical procedure involves placing titanium posts into the jawbone, acting as artificial tooth roots.</p>
 </div>
 </div>

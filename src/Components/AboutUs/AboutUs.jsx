@@ -11,7 +11,7 @@ const AboutUs = () => {
 
             <div className="flex md:flex-row flex-col justify-center gap-10 py-24 mx-auto items-center" >
             <div className="bg-blue-500 text-white w-[350px] h-[200px] text-center items-center justify-center rounded-lg  ">
-                 <h1 className="text-xl font-bold pt-6 pb-2 ">Health Care Organization</h1>
+                 <h1 className="md:text-xl font-bold pt-6 pb-2 ">Health Care Organization</h1>
                  <p className="text-sm text-white font-bold pb-2 px-4">A healthcare organization is a complex system that delivers medical services, including hospitals, clinics, and primary care facilities. </p>
                 <div className="py-2">
 
