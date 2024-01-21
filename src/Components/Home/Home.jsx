@@ -1,4 +1,5 @@
-import AboutUs from "../AboutUs/AboutUs";
+// import AboutUs from "../AboutUs/AboutUs";
+import Blogpagedetails from "../BlogPage/Blogpagedetails";
 // import Contact from "../Contruct/Contact";
 
 
@@ -6,7 +7,8 @@ const Home = () => {
     return (
         <div>
           {/* <Contact></Contact> */}
-          <AboutUs></AboutUs>
+          {/* <AboutUs></AboutUs> */}
+          <Blogpagedetails></Blogpagedetails>
         </div>
     );
 };
